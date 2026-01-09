@@ -1,3 +1,15 @@
+<script>
+(function () {
+  const PASSWORD = "qgis123";   // 🔴 CHANGE THIS PASSWORD
+
+  const entered = prompt("Enter password to access this map:");
+  if (entered !== PASSWORD) {
+    document.write("<h2>Access denied</h2>");
+    throw new Error("Unauthorized");
+  }
+})();
+</script>
+
 <!doctype html>
 <html lang="en">
     <head>
