@@ -757,7 +757,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_label_IUP_1_eval_expression(context) {
+function exp_label_IUP2_2_eval_expression(context) {
     // 'PT LAMAN Mining'
 
     var feature = context.feature;
@@ -770,7 +770,7 @@ function exp_label_IUP_1_eval_expression(context) {
 }
 
 
-function exp_label_IUP_1_eval_expression(context) {
+function exp_label_IUP2_2_eval_expression(context) {
     // 'PT LAMAN Mining'
 
     var feature = context.feature;
